@@ -115,6 +115,7 @@
       <value component="mali"     >$SRCROOT/components/mpas-albany-landice/cime_config/config_compsets.xml</value>
       <value component="mpassi"   >$SRCROOT/components/mpas-seaice/cime_config/config_compsets.xml</value>
       <value component="mosart"   >$SRCROOT/components/mosart/cime_config/config_compsets.xml</value>
+      <value component="demsi"    >$SRCROOT/components/demsi/cime_config/config_compsets.xml</value>
     </values>
     <group>case_last</group>
     <file>env_case.xml</file>
@@ -327,6 +328,7 @@
     <values>
       <value component="mpassi">$SRCROOT/components/mpas-seaice/cime_config/config_component.xml</value>
       <value component="cice">$SRCROOT/components/cice/cime_config/config_component.xml</value>
+      <value component="demsi">$SRCROOT/components/demsi/cime_config/config_component.xml</value>
       <value component="dice">$CIMEROOT/src/components/data_comps_$COMP_INTERFACE/dice/cime_config/config_component.xml</value>
       <value component="sice">$CIMEROOT/src/components/stub_comps_$COMP_INTERFACE/sice/cime_config/config_component.xml</value>
       <value component="xice">$CIMEROOT/src/components/xcpl_comps_$COMP_INTERFACE/xice/cime_config/config_component.xml</value>
